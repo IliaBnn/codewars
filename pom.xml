@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    
+
   <modelVersion>4.0.0</modelVersion>
   <groupId>codewarstasks</groupId>
   <artifactId>codewars</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-    
+
   <name>codewars</name>
   <description>Tasks from codewars</description>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
-    
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>14</maven.compiler.source>
     <maven.compiler.target>14</maven.compiler.target>
   </properties>
-
+    
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -25,7 +25,7 @@
       <version>4.12</version>
     </dependency>
   </dependencies>
-    
+
   <build>
     <plugins>
       <plugin>
@@ -46,11 +46,13 @@
       </plugin>
     </plugins>
   </build>
-    
+
   <reporting>
   </reporting>
-  
+
   <modules>
     <module>5_kyu</module>
+    <module>6_kyu</module>
   </modules>
+  
 </project>

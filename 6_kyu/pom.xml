@@ -7,11 +7,12 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>5_kyu</artifactId>
+
+  <artifactId>6_kyu</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>5_kyu</name>
-  <description>A simple 5_kyu.</description>
+  <name>6_kyu</name>
+  <description>A simple 6_kyu.</description>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
